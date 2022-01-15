@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: ;
+}
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color: #fef5ed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 6;
+}
+
+.botonera {
+    margin-right: 20px;
+}
+
+.botonera ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.botonera ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #99a799
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+/* ANIMACIONES */
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+/* ANIMACIONES */
+
+
+
+/* SECCION SERVICIOS */
+
+.contenedor {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 1px #99a799;
+    border-radius: 4px;
+}
+
+.contenedor h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenedor p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.imagenEncabezado {
+    width: 100%;
+}
+
+/*SECCION GALERIA */
+
+.imagenGaleria {
+    width: 100%;
+    height: 250px;
+}
+
+.imagenGaleria:hover {
+    filter:grayscale(100%)
+    z-index: 5;
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "imagenasia imagencaribe imagenegipto"
+    "imagenpuna imageneuropa imagenlagomontaña"
+    ;
+}
+
+.imagenasia {
+    grid-area: imagenasia;
+}
+
+.imagencaribe {
+    grid-area: imagencaribe;
+}
+
+.imagenegipto {
+    grid-area: imagenegipto;
+}
+
+.imagenpuna {
+    grid-area: imagenpuna;
+}
+
+.imageneuropa {
+    grid-area: imageneuropa;
+}
+
+.imagenlagomontaña {
+    grid-area: imagenlagomontaña;
+}
+
+
+/*MEDIAS QUERIES */
+
+/*VISTA CELULAR */
+
+@media only screen and (max-width:599px) {
+    .imagenEncabezado {
+        display: none;
+    }
+
+    .gridPadre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "imagenasia"
+        "imagencaribe"
+        "imagenegipto"
+        "imagenpuna"
+        "imageneuropa"
+        "imagenlagomontaña"
+        ;
+    }
+}
+
+/*VISTA TABLET */
+
+@media only screen and (min-width:600px) and (max-width:1023px){
+
+    .gridPadre {
+        display: gris;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "imagenasia imagencaribe"
+        "imagenegipto imagenpuna"
+        "imageneuropa imagenlagomontaña" 
+        ;
+    }
