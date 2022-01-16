@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400;1,700&display=swap');
 *{
     margin: 0;
-    padding: ;
+    padding: 0;
 }
 
 /* font-family: 'Roboto Condensed', sans-serif; */
@@ -28,6 +28,7 @@ header {
 .botonera ul li{
     display: inline-block;
     margin-left: 20px;
+    margin-top: 0px;
 }
 
 .botonera ul li a {
@@ -35,6 +36,11 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     color: #99a799
+}
+
+.cuerpo{
+    margin-top: 0px;
+    padding-top: 100px;
 }
 
 .logo {
@@ -80,6 +86,11 @@ a:hover, a:focus {
     margin-bottom: 15px;
 }
 
+.texto-alineado {
+    text-align: center;
+    padding-top: 30px;
+}
+
 .imagenEncabezado {
     width: 100%;
 }
@@ -93,7 +104,7 @@ a:hover, a:focus {
 
 .imagenGaleria:hover {
     filter:grayscale(100%)
-    z-index: 5;
+    z-index= 5;
 }
 
 .gridPadre {
@@ -169,3 +180,4 @@ a:hover, a:focus {
         "imageneuropa imagenlagomontaña" 
         ;
     }
+}

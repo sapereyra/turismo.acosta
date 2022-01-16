@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="./css-bt/bootstrap.min.css">
+        <link rel="stylesheet" href="./js-bt/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="./js-bt/bootstrap.bundle.js">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div>
+                <img src="img/logo.svg" class="logo" alt="" />
+            </div>
+            <nav class="botonera">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a href="">Información</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="cuerpo">
+            <section id="servicios">    
+                <div class="texto-alineado">
+                    <p class="fs-1 fw-bold">CONTACTO</p>
+                </div>      
+                <div class="contenedor">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="nombre" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                        <label for="exampleFormControlInput1" class="form-label">Tipo de consulta</label>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Seleccione
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Alojamiento</a></li>
+                            <li><a class="dropdown-item" href="#">Excursiones</a></li>
+                            <li><a class="dropdown-item" href="#">Otro</a></li>
+                        </ul>
+                    </div>
+                    <div class="texto-alineado">     
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </section>          
+        </div>
+    </body>
+</html>
