@@ -1,0 +1,38 @@
+@import "menu";
+@import "contenido";
+
+//FOOTER
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+    .footer_flex{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/*
+.header_menu{
+    list-style: none;
+    padding: 0;
+    li{
+        display: inline-block;
+    }
+    a{
+        text: {
+            decoration: none;
+            transform: uppercase;
+            align: center;
+        }
+        font: {
+            family: sans-serif;
+            size:1rem;
+        }
+        color: white;
+        padding: 1rem;
+        background-color: cadetblue;
+    }
+}   
+*/ 

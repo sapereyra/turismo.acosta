@@ -1,0 +1,19 @@
+{
+  "name": "turismo.acosta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapereyra/turismo.acosta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapereyra/turismo.acosta/issues"
+  },
+  "homepage": "https://github.com/sapereyra/turismo.acosta#readme"
+}
