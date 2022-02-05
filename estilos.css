@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #fef5ed;
+    background-color: #3b3a3a;
     width: 100%;
     height: 100px;
     display: flex;
@@ -35,7 +35,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #99a799
+    color: #f4faf4
 }
 
 .cuerpo{
@@ -61,6 +61,8 @@ a {
 a:hover, a:focus {
     background-size: 100% 2px;
 }
+
+
 
 /* ANIMACIONES */
 
@@ -180,4 +182,29 @@ a:hover, a:focus {
         "imageneuropa imagenlagomontaña" 
         ;
     }
+}
+
+/*SECCION FOOTER */
+.piepagina {
+    width: 100%;
+    background-color: rgba(43, 41, 58, 0.5);
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+}
+
+.piepagina. redsocial {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 300ms ease;
 }

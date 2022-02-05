@@ -1,0 +1,11 @@
+// MIXIN
+@mixin fontstyle ($bgColor, $fontsize) {
+    color: white;
+    margin: 1rem;
+    background-color: $bgColor;
+    font-size: $fontsize;
+}
+
+p {
+    @include fontstyle(violet, 20px)
+}

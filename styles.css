@@ -23,6 +23,25 @@
   font: normal 24px/1.5 "Open Sans", sans-serif;
 }
 
+.btn--centrar {
+  background-color: #55acee;
+}
+
+.btn--copiarubicacion {
+  background-color: #3a5795;
+}
+
+.btn--imprimirubicacion {
+  background-color: #c25e30;
+}
+
+p {
+  color: white;
+  margin: 1rem;
+  background-color: violet;
+  font-size: 20px;
+}
+
 footer {
   background-color: black;
   color: white;

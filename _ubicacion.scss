@@ -1,0 +1,11 @@
+// MAPS
+$redes :(
+    centrar: #55acee,
+    copiarubicacion: #3a5795,
+    imprimirubicacion: #c25e30,
+);
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
